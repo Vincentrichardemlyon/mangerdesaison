@@ -1,0 +1,16 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "manger-de-saison.fr" }],
+      "destination": "https://mangerdesaison.fr/$1",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "www.mangerdesaison.fr" }],
+      "destination": "https://mangerdesaison.fr/$1",
+      "permanent": true
+    }
+  ]
+}
