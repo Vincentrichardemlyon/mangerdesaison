@@ -1,0 +1,61 @@
+{
+  "nav": {
+    "home": "Home",
+    "calendar": "Calendar",
+    "recipes": "Recipes",
+    "about": "About"
+  },
+  "hero": {
+    "tagline": "Eat with the seasons",
+    "subtitle": "Discover fruits and vegetables at their peak, locally grown and harvested at the right time.",
+    "cta": "Explore the Calendar"
+  },
+  "calendar": {
+    "title": "Explore the Seasons",
+    "subtitle": "Select a month to explore local, in-season produce grown with care.",
+    "hiver": "Winter",
+    "printemps": "Spring",
+    "ete": "Summer",
+    "automne": "Autumn",
+    "recoltes": "Harvest of",
+    "filters": {
+      "all": "All",
+      "legumes": "Vegetables",
+      "fruits": "Fruits"
+    }
+  },
+  "card": {
+    "pleineSaison": "Peak season",
+    "precoce": "Early",
+    "tardif": "Late",
+    "horseSaison": "Out of season",
+    "voirFiche": "View guide"
+  },
+  "engagement": {
+    "eyebrow": "Our Commitment",
+    "title": "Why eat seasonally?",
+    "subtitle": "Choosing seasonal produce is about much more than taste. It's an act that supports our ecosystem, our health and our local producers.",
+    "pillars": {
+      "nutrition": { "title": "More Nutrients", "desc": "Produce harvested at peak ripeness retains the maximum amount of essential vitamins and minerals." },
+      "ecologie": { "title": "Reduced Ecological Impact", "desc": "Fewer transport miles and heated greenhouses means a significantly reduced carbon footprint." },
+      "economie": { "title": "Local economy", "desc": "Support local producers and short supply chains in your region." },
+      "circuit": { "title": "Short Supply Chain", "desc": "By cutting out the middlemen, we guarantee better pay for our farmers and unmatched freshness." }
+    }
+  },
+  "produit": {
+    "saisonnalite": "Seasonality",
+    "nutrition": "Nutritional value",
+    "cuisson": "Cooking",
+    "recettes": "Recipe Ideas",
+    "accordParfait": "Perfect Pairing",
+    "conservation": "Storage Secrets",
+    "potager": "Garden Companions",
+    "principale": "Primary",
+    "secondaire": "Secondary"
+  },
+  "months": ["January","February","March","April","May","June","July","August","September","October","November","December"],
+  "footer": {
+    "tagline": "Growing what matters.",
+    "rights": "© 2026 Seasonal Harvest."
+  }
+}

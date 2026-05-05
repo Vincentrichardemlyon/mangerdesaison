@@ -1,0 +1,61 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "calendar": "Calendrier",
+    "recipes": "Recettes",
+    "about": "À propos"
+  },
+  "hero": {
+    "tagline": "Consommez au rythme des saisons",
+    "subtitle": "Découvrez les fruits et légumes à leur apogée, cultivés localement et récoltés au bon moment.",
+    "cta": "Explorer le Calendrier"
+  },
+  "calendar": {
+    "title": "Explorer les Saisons",
+    "subtitle": "Sélectionnez un mois pour explorer les récoltes locales et de saison, cultivées avec soin.",
+    "hiver": "Hiver",
+    "printemps": "Printemps",
+    "ete": "Été",
+    "automne": "Automne",
+    "recoltes": "Récoltes de",
+    "filters": {
+      "all": "Tous",
+      "legumes": "Légumes",
+      "fruits": "Fruits"
+    }
+  },
+  "card": {
+    "pleineSaison": "Pleine saison",
+    "precoce": "Précoce",
+    "tardif": "Tardif",
+    "horseSaison": "Hors saison",
+    "voirFiche": "Voir la fiche"
+  },
+  "engagement": {
+    "eyebrow": "Notre Engagement",
+    "title": "Pourquoi manger de saison ?",
+    "subtitle": "Choisir des produits de saison, c'est bien plus qu'une question de goût. C'est un acte qui soutient notre écosystème, notre santé et nos producteurs locaux.",
+    "pillars": {
+      "nutrition": { "title": "Plus de Nutriments", "desc": "Les fruits et légumes récoltés à maturité conservent un maximum de vitamines et de minéraux essentiels." },
+      "ecologie": { "title": "Impact Écologique Réduit", "desc": "Moins de transport et de serres chauffées signifie une empreinte carbone considérablement diminuée." },
+      "economie": { "title": "Économie locale", "desc": "Soutenir les producteurs locaux et les circuits courts de votre région." },
+      "circuit": { "title": "Circuit Court", "desc": "En réduisant les intermédiaires, nous garantissons une meilleure rémunération pour nos agriculteurs et des produits d'une fraîcheur incomparable." }
+    }
+  },
+  "produit": {
+    "saisonnalite": "Saisonnalité",
+    "nutrition": "Valeur nutritive",
+    "cuisson": "Cuisson",
+    "recettes": "Idées Recettes",
+    "accordParfait": "Accord Parfait",
+    "conservation": "Secrets de Conservation",
+    "potager": "Amis du Potager",
+    "principale": "Principale",
+    "secondaire": "Secondaire"
+  },
+  "months": ["Janvier","Février","Mars","Avril","Mai","Juin","Juillet","Août","Septembre","Octobre","Novembre","Décembre"],
+  "footer": {
+    "tagline": "Cultivons l'essentiel.",
+    "rights": "© 2026 Seasonal Harvest."
+  }
+}
