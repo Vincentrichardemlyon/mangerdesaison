@@ -19,6 +19,7 @@ export interface Produit {
   conservation: { principale: Traduit; secondaire: Traduit }
   potager: Traduit[]
   image: string
+  heroImage?: string
   cuissons?: { methode: Traduit; duree: string; icone: string }[]
   recettes?: { titre: Traduit; duree: string; image: string; accordParfait: Traduit[] }[]
 }

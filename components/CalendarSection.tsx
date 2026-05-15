@@ -81,7 +81,7 @@ export default function CalendarSection({
             <button
               key={key}
               onClick={() => setSelectedFilter(key)}
-              className={`font-caption text-caption px-md py-xs rounded-full border transition-colors duration-200 ${
+              className={`font-caption text-caption px-md py-xs rounded-full border transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 ${
                 selectedFilter === key
                   ? 'bg-primary text-on-primary border-primary'
                   : 'bg-surface-container-lowest text-text-muted border-border-subtle hover:bg-surface-container active:scale-95'
@@ -94,7 +94,7 @@ export default function CalendarSection({
       </div>
 
       <div
-        className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-lg"
+        className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-lg"
         style={{
           opacity: visible ? 1 : 0,
           transform: visible ? 'translateY(0)' : 'translateY(6px)',
@@ -105,6 +105,7 @@ export default function CalendarSection({
           <ProduitCard
             key={produit.slug.fr}
             nom={produit.nom[loc]}
+            image={produit.image}
             emoji={produit.emoji}
             badge="pleineSaison"
             featured={index === 0}

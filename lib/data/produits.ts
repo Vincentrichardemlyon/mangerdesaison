@@ -13,7 +13,7 @@ export const produits: Produit[] = [
     preparation: { fr: 'À la vapeur', en: 'Steamed' },
     conservation: { principale: { fr: 'Réfrigération', en: 'Refrigeration' }, secondaire: { fr: 'Mise en conserve ou Congélation', en: 'Canning or freezing' } },
     potager: [{ fr: 'Fève', en: 'Broad bean' }, { fr: 'Pois', en: 'Peas' }],
-    image: 'https://placehold.co/400x300/FEF3C7/712C00?text=Artichaut',
+    image: '/images/produits/artichaut.webp',
   },
   {
     slug: { fr: 'asperge', en: 'asparagus' },
@@ -27,7 +27,7 @@ export const produits: Produit[] = [
     preparation: { fr: 'Blanchies ou poêlées', en: 'Blanched or pan-fried' },
     conservation: { principale: { fr: 'Réfrigération', en: 'Refrigeration' }, secondaire: { fr: 'Congélation ou Mise en conserve', en: 'Freezing or canning' } },
     potager: [{ fr: 'Tomate', en: 'Tomato' }, { fr: 'Persil', en: 'Parsley' }],
-    image: 'https://placehold.co/400x300/FEF3C7/712C00?text=Asperge',
+    image: '/images/produits/asperge.webp',
   },
   {
     slug: { fr: 'aubergine', en: 'eggplant' },
@@ -41,7 +41,7 @@ export const produits: Produit[] = [
     preparation: { fr: 'Grillée ou en ratatouille', en: 'Grilled or in ratatouille' },
     conservation: { principale: { fr: 'Réfrigération', en: 'Refrigeration' }, secondaire: { fr: 'Congélation ou Lactofermentation', en: 'Freezing or lacto-fermentation' } },
     potager: [{ fr: 'Haricot vert', en: 'Green bean' }, { fr: 'Thym', en: 'Thyme' }],
-    image: 'https://placehold.co/400x300/FEF3C7/712C00?text=Aubergine',
+    image: '/images/produits/aubergine.webp',
   },
   {
     slug: { fr: 'avocat', en: 'avocado' },
@@ -55,7 +55,7 @@ export const produits: Produit[] = [
     preparation: { fr: 'Cru en salade', en: 'Raw in salad' },
     conservation: { principale: { fr: 'Température ambiante', en: 'Room temperature' }, secondaire: { fr: 'Réfrigération (une fois mûr)', en: 'Refrigeration (once ripe)' } },
     potager: [{ fr: 'Oignon', en: 'Onion' }, { fr: 'Tomate', en: 'Tomato' }],
-    image: 'https://placehold.co/400x300/FEF3C7/712C00?text=Avocat',
+    image: '/images/produits/avocat.webp',
   },
   {
     slug: { fr: 'betterave', en: 'beetroot' },
@@ -69,7 +69,7 @@ export const produits: Produit[] = [
     preparation: { fr: 'Rôtie ou en salade', en: 'Roasted or in salad' },
     conservation: { principale: { fr: 'Cave ou cellier', en: 'Root cellar' }, secondaire: { fr: 'Mise en conserve ou Lactofermentation', en: 'Canning or lacto-fermentation' } },
     potager: [{ fr: 'Oignon', en: 'Onion' }, { fr: 'Chou', en: 'Cabbage' }],
-    image: 'https://placehold.co/400x300/FEF3C7/712C00?text=Betterave',
+    image: '/images/produits/betterave.webp',
   },
   {
     slug: { fr: 'brocoli', en: 'broccoli' },
@@ -83,7 +83,7 @@ export const produits: Produit[] = [
     preparation: { fr: 'À la vapeur', en: 'Steamed' },
     conservation: { principale: { fr: 'Réfrigération', en: 'Refrigeration' }, secondaire: { fr: 'Congélation', en: 'Freezing' } },
     potager: [{ fr: 'Céleri', en: 'Celery' }, { fr: 'Pomme de terre', en: 'Potato' }],
-    image: 'https://placehold.co/400x300/FEF3C7/712C00?text=Brocoli',
+    image: '/images/produits/brocoli.webp',
   },
   {
     slug: { fr: 'cardon', en: 'cardoon' },
@@ -97,7 +97,7 @@ export const produits: Produit[] = [
     preparation: { fr: 'Braisé ou en gratin', en: 'Braised or au gratin' },
     conservation: { principale: { fr: 'Réfrigération', en: 'Refrigeration' }, secondaire: { fr: 'Mise en conserve', en: 'Canning' } },
     potager: [{ fr: 'Fève', en: 'Broad bean' }, { fr: 'Haricot', en: 'Bean' }],
-    image: 'https://placehold.co/400x300/FEF3C7/712C00?text=Cardon',
+    image: '/images/produits/cardon.webp',
   },
   {
     slug: { fr: 'carotte', en: 'carrot' },
@@ -111,7 +111,7 @@ export const produits: Produit[] = [
     preparation: { fr: 'Glacée ou en purée', en: 'Glazed or as purée' },
     conservation: { principale: { fr: 'Cave ou cellier', en: 'Root cellar' }, secondaire: { fr: 'Réfrigération ou Congélation', en: 'Refrigeration or freezing' } },
     potager: [{ fr: 'Oignon', en: 'Onion' }, { fr: 'Poireau', en: 'Leek' }, { fr: 'Laitue', en: 'Lettuce' }],
-    image: 'https://placehold.co/400x300/FEF3C7/712C00?text=Carotte',
+    image: '/images/produits/carotte.webp',
   },
   {
     slug: { fr: 'celeri', en: 'celery' },
@@ -125,7 +125,7 @@ export const produits: Produit[] = [
     preparation: { fr: 'Sauté ou en soupe', en: 'Sautéed or in soup' },
     conservation: { principale: { fr: 'Réfrigération', en: 'Refrigeration' }, secondaire: { fr: 'Congélation ou Déshydratation', en: 'Freezing or dehydration' } },
     potager: [{ fr: 'Chou', en: 'Cabbage' }, { fr: 'Tomate', en: 'Tomato' }, { fr: 'Poireau', en: 'Leek' }],
-    image: 'https://placehold.co/400x300/FEF3C7/712C00?text=Céleri',
+    image: '/images/produits/celeri.webp',
   },
   {
     slug: { fr: 'chou', en: 'cabbage' },
@@ -139,7 +139,7 @@ export const produits: Produit[] = [
     preparation: { fr: 'En potée ou sauté', en: 'In stew or sautéed' },
     conservation: { principale: { fr: 'Réfrigération ou cave', en: 'Refrigeration or root cellar' }, secondaire: { fr: 'Lactofermentation (Choucroute)', en: 'Lacto-fermentation (Sauerkraut)' } },
     potager: [{ fr: 'Pomme de terre', en: 'Potato' }, { fr: 'Céleri', en: 'Celery' }, { fr: 'Sauge', en: 'Sage' }],
-    image: 'https://placehold.co/400x300/FEF3C7/712C00?text=Chou',
+    image: '/images/produits/chou.webp',
   },
   {
     slug: { fr: 'chou-blanc', en: 'white-cabbage' },
@@ -153,7 +153,7 @@ export const produits: Produit[] = [
     preparation: { fr: 'Émincé en salade ou sauté', en: 'Sliced in salad or sautéed' },
     conservation: { principale: { fr: 'Réfrigération', en: 'Refrigeration' }, secondaire: { fr: 'Lactofermentation', en: 'Lacto-fermentation' } },
     potager: [{ fr: 'Menthe', en: 'Mint' }, { fr: 'Romarin', en: 'Rosemary' }],
-    image: 'https://placehold.co/400x300/FEF3C7/712C00?text=Chou+blanc',
+    image: '/images/produits/chou.webp+blanc',
   },
   {
     slug: { fr: 'chou-de-bruxelles', en: 'brussels-sprouts' },
@@ -167,7 +167,7 @@ export const produits: Produit[] = [
     preparation: { fr: 'Poêlé avec des lardons', en: 'Pan-fried with bacon' },
     conservation: { principale: { fr: 'Réfrigération', en: 'Refrigeration' }, secondaire: { fr: 'Congélation', en: 'Freezing' } },
     potager: [{ fr: 'Pomme de terre', en: 'Potato' }, { fr: 'Céleri', en: 'Celery' }],
-    image: 'https://placehold.co/400x300/FEF3C7/712C00?text=Chou+Bruxelles',
+    image: '/images/produits/chou.webp+Bruxelles',
   },
   {
     slug: { fr: 'chou-rouge', en: 'red-cabbage' },
@@ -181,7 +181,7 @@ export const produits: Produit[] = [
     preparation: { fr: 'Braisé ou râpé', en: 'Braised or grated' },
     conservation: { principale: { fr: 'Réfrigération', en: 'Refrigeration' }, secondaire: { fr: 'Lactofermentation', en: 'Lacto-fermentation' } },
     potager: [{ fr: 'Menthe', en: 'Mint' }, { fr: 'Sauge', en: 'Sage' }],
-    image: 'https://placehold.co/400x300/FEF3C7/712C00?text=Chou+rouge',
+    image: '/images/produits/chou.webp+rouge',
   },
   {
     slug: { fr: 'chou-fleur', en: 'cauliflower' },
@@ -195,7 +195,7 @@ export const produits: Produit[] = [
     preparation: { fr: 'En gratin ou vapeur', en: 'Au gratin or steamed' },
     conservation: { principale: { fr: 'Réfrigération', en: 'Refrigeration' }, secondaire: { fr: 'Congélation ou Pickles (vinaigre)', en: 'Freezing or pickles (vinegar)' } },
     potager: [{ fr: 'Céleri', en: 'Celery' }, { fr: 'Origan', en: 'Oregano' }],
-    image: 'https://placehold.co/400x300/FEF3C7/712C00?text=Chou-fleur',
+    image: '/images/produits/chou.webp-fleur',
   },
   {
     slug: { fr: 'concombre', en: 'cucumber' },
@@ -209,7 +209,7 @@ export const produits: Produit[] = [
     preparation: { fr: 'Cru en salade', en: 'Raw in salad' },
     conservation: { principale: { fr: 'Réfrigération', en: 'Refrigeration' }, secondaire: { fr: 'Transformation en pickles (vinaigre)', en: 'Pickling (vinegar)' } },
     potager: [{ fr: 'Maïs', en: 'Corn' }, { fr: 'Pois', en: 'Peas' }, { fr: 'Haricot', en: 'Bean' }],
-    image: 'https://placehold.co/400x300/FEF3C7/712C00?text=Concombre',
+    image: '/images/produits/concombre.webp',
   },
   {
     slug: { fr: 'courge', en: 'squash' },
@@ -223,7 +223,7 @@ export const produits: Produit[] = [
     preparation: { fr: 'En velouté ou rôtie', en: 'In soup or roasted' },
     conservation: { principale: { fr: 'Endroit sec et tempéré', en: 'Dry, cool place' }, secondaire: { fr: 'Congélation (en purée)', en: 'Freezing (as purée)' } },
     potager: [{ fr: 'Maïs', en: 'Corn' }, { fr: 'Haricot', en: 'Bean' }, { fr: 'Capucine', en: 'Nasturtium' }],
-    image: 'https://placehold.co/400x300/FEF3C7/712C00?text=Courge',
+    image: '/images/produits/courge.webp',
   },
   {
     slug: { fr: 'courge-d-ete', en: 'summer-squash' },
@@ -237,7 +237,7 @@ export const produits: Produit[] = [
     preparation: { fr: 'Sautée à la poêle', en: 'Pan-fried' },
     conservation: { principale: { fr: 'Réfrigération', en: 'Refrigeration' }, secondaire: { fr: 'Congélation ou Déshydratation', en: 'Freezing or dehydration' } },
     potager: [{ fr: 'Maïs', en: 'Corn' }, { fr: 'Radis', en: 'Radish' }],
-    image: 'https://placehold.co/400x300/FEF3C7/712C00?text=Courge+été',
+    image: '/images/produits/courge.webp+été',
   },
   {
     slug: { fr: 'courgette', en: 'zucchini' },
@@ -251,7 +251,7 @@ export const produits: Produit[] = [
     preparation: { fr: 'Poêlée ou farcie', en: 'Pan-fried or stuffed' },
     conservation: { principale: { fr: 'Réfrigération', en: 'Refrigeration' }, secondaire: { fr: 'Congélation ou Pickles (vinaigre)', en: 'Freezing or pickles (vinegar)' } },
     potager: [{ fr: 'Haricot', en: 'Bean' }, { fr: 'Maïs', en: 'Corn' }, { fr: 'Souci', en: 'Marigold' }],
-    image: 'https://placehold.co/400x300/FEF3C7/712C00?text=Courgette',
+    image: '/images/produits/courge.webptte',
   },
   {
     slug: { fr: 'cresson', en: 'watercress' },
@@ -265,7 +265,7 @@ export const produits: Produit[] = [
     preparation: { fr: 'En velouté ou salade', en: 'In soup or salad' },
     conservation: { principale: { fr: 'Réfrigération (dans l\'eau)', en: 'Refrigeration (in water)' }, secondaire: { fr: 'Déshydratation', en: 'Dehydration' } },
     potager: [{ fr: 'Laitue', en: 'Lettuce' }],
-    image: 'https://placehold.co/400x300/FEF3C7/712C00?text=Cresson',
+    image: '/images/produits/cresson.webp',
   },
   {
     slug: { fr: 'endive', en: 'endive' },
@@ -279,7 +279,7 @@ export const produits: Produit[] = [
     preparation: { fr: 'Braisée ou en salade', en: 'Braised or in salad' },
     conservation: { principale: { fr: 'Réfrigération (à l\'abri de la lumière)', en: 'Refrigeration (away from light)' }, secondaire: { fr: 'Braisée puis congelée', en: 'Braised then frozen' } },
     potager: [{ fr: 'Poireau', en: 'Leek' }, { fr: 'Carotte', en: 'Carrot' }],
-    image: 'https://placehold.co/400x300/FEF3C7/712C00?text=Endive',
+    image: '/images/produits/endive.webp',
   },
   {
     slug: { fr: 'epinard', en: 'spinach' },
@@ -293,7 +293,7 @@ export const produits: Produit[] = [
     preparation: { fr: 'Sauté au beurre', en: 'Sautéed in butter' },
     conservation: { principale: { fr: 'Réfrigération', en: 'Refrigeration' }, secondaire: { fr: 'Congélation (blanchi)', en: 'Freezing (blanched)' } },
     potager: [{ fr: 'Fraise', en: 'Strawberry' }, { fr: 'Chou', en: 'Cabbage' }],
-    image: 'https://placehold.co/400x300/FEF3C7/712C00?text=Épinard',
+    image: '/images/produits/epinard.webp',
   },
   {
     slug: { fr: 'fenouil', en: 'fennel' },
@@ -307,7 +307,7 @@ export const produits: Produit[] = [
     preparation: { fr: 'Rôti au four', en: 'Oven-roasted' },
     conservation: { principale: { fr: 'Réfrigération', en: 'Refrigeration' }, secondaire: { fr: 'Congélation', en: 'Freezing' } },
     potager: [{ fr: 'Laitue', en: 'Lettuce' }],
-    image: 'https://placehold.co/400x300/FEF3C7/712C00?text=Fenouil',
+    image: '/images/produits/fenouil.webp',
   },
   {
     slug: { fr: 'feve', en: 'broad-bean' },
@@ -321,7 +321,7 @@ export const produits: Produit[] = [
     preparation: { fr: 'À la vapeur ou poêlée', en: 'Steamed or pan-fried' },
     conservation: { principale: { fr: 'Réfrigération', en: 'Refrigeration' }, secondaire: { fr: 'Congélation ou Déshydratation', en: 'Freezing or dehydration' } },
     potager: [{ fr: 'Maïs', en: 'Corn' }, { fr: 'Pomme de terre', en: 'Potato' }],
-    image: 'https://placehold.co/400x300/FEF3C7/712C00?text=Fève',
+    image: '/images/produits/feve.webp',
   },
   {
     slug: { fr: 'haricot-vert', en: 'green-bean' },
@@ -335,7 +335,7 @@ export const produits: Produit[] = [
     preparation: { fr: 'À la vapeur', en: 'Steamed' },
     conservation: { principale: { fr: 'Réfrigération', en: 'Refrigeration' }, secondaire: { fr: 'Congélation ou Mise en conserve', en: 'Freezing or canning' } },
     potager: [{ fr: 'Maïs', en: 'Corn' }, { fr: 'Sarriette', en: 'Savory' }, { fr: 'Carotte', en: 'Carrot' }],
-    image: 'https://placehold.co/400x300/FEF3C7/712C00?text=Haricot+vert',
+    image: '/images/produits/haricot-vert.webp',
   },
   {
     slug: { fr: 'laitue-pommee', en: 'butterhead-lettuce' },
@@ -349,7 +349,7 @@ export const produits: Produit[] = [
     preparation: { fr: 'Cru en salade', en: 'Raw in salad' },
     conservation: { principale: { fr: 'Réfrigération', en: 'Refrigeration' }, secondaire: { fr: 'Aucune (très fragile)', en: 'None (very fragile)' } },
     potager: [{ fr: 'Carotte', en: 'Carrot' }, { fr: 'Radis', en: 'Radish' }, { fr: 'Fraise', en: 'Strawberry' }],
-    image: 'https://placehold.co/400x300/FEF3C7/712C00?text=Laitue',
+    image: '/images/produits/laitue-pommee.webp',
   },
   {
     slug: { fr: 'mache', en: 'lamb-lettuce' },
@@ -363,7 +363,7 @@ export const produits: Produit[] = [
     preparation: { fr: 'Cru en salade', en: 'Raw in salad' },
     conservation: { principale: { fr: 'Réfrigération', en: 'Refrigeration' }, secondaire: { fr: 'Aucune', en: 'None' } },
     potager: [{ fr: 'Chou', en: 'Cabbage' }, { fr: 'Poireau', en: 'Leek' }],
-    image: 'https://placehold.co/400x300/FEF3C7/712C00?text=Mâche',
+    image: '/images/produits/mache.webp',
   },
   {
     slug: { fr: 'mais', en: 'corn' },
@@ -377,7 +377,7 @@ export const produits: Produit[] = [
     preparation: { fr: 'Bouilli ou grillé', en: 'Boiled or grilled' },
     conservation: { principale: { fr: 'Réfrigération', en: 'Refrigeration' }, secondaire: { fr: 'Congélation ou Mise en conserve', en: 'Freezing or canning' } },
     potager: [{ fr: 'Haricot', en: 'Bean' }, { fr: 'Courge', en: 'Squash' }, { fr: 'Concombre', en: 'Cucumber' }],
-    image: 'https://placehold.co/400x300/FEF3C7/712C00?text=Maïs',
+    image: '/images/produits/mais.webp',
   },
   {
     slug: { fr: 'navet', en: 'turnip' },
@@ -391,7 +391,7 @@ export const produits: Produit[] = [
     preparation: { fr: 'Glacé ou en ragoût', en: 'Glazed or in stew' },
     conservation: { principale: { fr: 'Cave ou cellier', en: 'Root cellar' }, secondaire: { fr: 'Réfrigération ou Congélation', en: 'Refrigeration or freezing' } },
     potager: [{ fr: 'Pois', en: 'Peas' }, { fr: 'Menthe', en: 'Mint' }],
-    image: 'https://placehold.co/400x300/FEF3C7/712C00?text=Navet',
+    image: '/images/produits/navet.webp',
   },
   {
     slug: { fr: 'oignon', en: 'onion' },
@@ -405,7 +405,7 @@ export const produits: Produit[] = [
     preparation: { fr: 'Sauté ou confit', en: 'Sautéed or confit' },
     conservation: { principale: { fr: 'Endroit sec et aéré', en: 'Dry, airy place' }, secondaire: { fr: 'Déshydratation', en: 'Dehydration' } },
     potager: [{ fr: 'Carotte', en: 'Carrot' }, { fr: 'Betterave', en: 'Beetroot' }, { fr: 'Fraise', en: 'Strawberry' }],
-    image: 'https://placehold.co/400x300/FEF3C7/712C00?text=Oignon',
+    image: '/images/produits/oignon.webp',
   },
   {
     slug: { fr: 'panais', en: 'parsnip' },
@@ -419,7 +419,7 @@ export const produits: Produit[] = [
     preparation: { fr: 'Rôti ou en purée', en: 'Roasted or as purée' },
     conservation: { principale: { fr: 'Cave ou cellier', en: 'Root cellar' }, secondaire: { fr: 'Réfrigération ou Congélation', en: 'Refrigeration or freezing' } },
     potager: [{ fr: 'Oignon', en: 'Onion' }, { fr: 'Poireau', en: 'Leek' }],
-    image: 'https://placehold.co/400x300/FEF3C7/712C00?text=Panais',
+    image: '/images/produits/panais.webp',
   },
   {
     slug: { fr: 'petit-pois', en: 'peas' },
@@ -433,7 +433,7 @@ export const produits: Produit[] = [
     preparation: { fr: 'Braisé à la française', en: 'French-style braised' },
     conservation: { principale: { fr: 'Réfrigération', en: 'Refrigeration' }, secondaire: { fr: 'Congélation ou Mise en conserve', en: 'Freezing or canning' } },
     potager: [{ fr: 'Carotte', en: 'Carrot' }, { fr: 'Radis', en: 'Radish' }, { fr: 'Maïs', en: 'Corn' }],
-    image: 'https://placehold.co/400x300/FEF3C7/712C00?text=Petit+pois',
+    image: '/images/produits/petit-pois.webp',
   },
   {
     slug: { fr: 'poireau', en: 'leek' },
@@ -447,7 +447,8 @@ export const produits: Produit[] = [
     preparation: { fr: 'À la vapeur ou en tarte', en: 'Steamed or in a tart' },
     conservation: { principale: { fr: 'Réfrigération', en: 'Refrigeration' }, secondaire: { fr: 'Congélation', en: 'Freezing' } },
     potager: [{ fr: 'Carotte', en: 'Carrot' }, { fr: 'Oignon', en: 'Onion' }, { fr: 'Fraise', en: 'Strawberry' }],
-    image: 'https://placehold.co/400x300/FEF3C7/712C00?text=Poireau',
+    image: '/images/produits/poireau.webp',
+    heroImage: '/images/hero/poireau-hero.webp',
     cuissons: [
       { methode: { fr: 'Vapeur', en: 'Steam' }, duree: '15 min', icone: 'local_fire_department' },
       { methode: { fr: 'Poêle', en: 'Pan' }, duree: '8 min', icone: 'skillet' },
@@ -457,19 +458,19 @@ export const produits: Produit[] = [
       {
         titre: { fr: 'Tarte au poireau et chèvre', en: 'Leek and goat cheese tart' },
         duree: '45 min',
-        image: 'https://placehold.co/600x400/f7e4dd/887269?text=🥧',
+        image: '/images/recettes/poireau-tarte.webp',
         accordParfait: [{ fr: 'Chèvre frais', en: 'Fresh goat cheese' }, { fr: 'Crème fraîche', en: 'Cream' }],
       },
       {
         titre: { fr: 'Velouté de poireau', en: 'Leek velouté' },
         duree: '30 min',
-        image: 'https://placehold.co/600x400/fdeae3/887269?text=🍵',
+        image: '/images/recettes/poireau-veloute.webp',
         accordParfait: [{ fr: 'Pomme de terre', en: 'Potato' }, { fr: 'Crème fraîche', en: 'Cream' }],
       },
       {
         titre: { fr: 'Gratin de poireaux', en: 'Leek gratin' },
         duree: '40 min',
-        image: 'https://placehold.co/600x400/f1dfd8/887269?text=🫕',
+        image: '/images/recettes/poireau-gratin.webp',
         accordParfait: [{ fr: 'Gruyère', en: 'Gruyère cheese' }, { fr: 'Jambon', en: 'Ham' }],
       },
     ],
@@ -486,7 +487,7 @@ export const produits: Produit[] = [
     preparation: { fr: 'Grillé ou sauté', en: 'Grilled or sautéed' },
     conservation: { principale: { fr: 'Réfrigération', en: 'Refrigeration' }, secondaire: { fr: 'Congélation ou Déshydratation', en: 'Freezing or dehydration' } },
     potager: [{ fr: 'Basilic', en: 'Basil' }, { fr: 'Tomate', en: 'Tomato' }, { fr: 'Carotte', en: 'Carrot' }],
-    image: 'https://placehold.co/400x300/FEF3C7/712C00?text=Poivron',
+    image: '/images/produits/poivron.webp',
   },
   {
     slug: { fr: 'pomme-de-terre', en: 'potato' },
@@ -500,7 +501,7 @@ export const produits: Produit[] = [
     preparation: { fr: 'À la vapeur ou rôtie', en: 'Steamed or roasted' },
     conservation: { principale: { fr: 'Cave obscure et fraîche', en: 'Dark, cool cellar' }, secondaire: { fr: 'Aucune', en: 'None' } },
     potager: [{ fr: 'Haricot', en: 'Bean' }, { fr: 'Maïs', en: 'Corn' }, { fr: 'Chou', en: 'Cabbage' }],
-    image: 'https://placehold.co/400x300/FEF3C7/712C00?text=Pomme+de+terre',
+    image: '/images/produits/pomme-de-terre.webp',
   },
   {
     slug: { fr: 'pomme-de-terre-nouvelle', en: 'new-potato' },
@@ -514,7 +515,7 @@ export const produits: Produit[] = [
     preparation: { fr: 'Sautée à la poêle', en: 'Pan-fried' },
     conservation: { principale: { fr: 'Réfrigération', en: 'Refrigeration' }, secondaire: { fr: 'Aucune', en: 'None' } },
     potager: [{ fr: 'Pois', en: 'Peas' }, { fr: 'Fève', en: 'Broad bean' }],
-    image: 'https://placehold.co/400x300/FEF3C7/712C00?text=PDT+nouvelle',
+    image: '/images/produits/pomme-de-terre-nouvelle.webp',
   },
   {
     slug: { fr: 'potiron', en: 'pumpkin' },
@@ -528,7 +529,7 @@ export const produits: Produit[] = [
     preparation: { fr: 'En velouté', en: 'As soup' },
     conservation: { principale: { fr: 'Endroit sec et tempéré', en: 'Dry, cool place' }, secondaire: { fr: 'Congélation (en purée)', en: 'Freezing (as purée)' } },
     potager: [{ fr: 'Maïs', en: 'Corn' }, { fr: 'Haricot', en: 'Bean' }],
-    image: 'https://placehold.co/400x300/FEF3C7/712C00?text=Potiron',
+    image: '/images/produits/potiron.webp',
   },
   {
     slug: { fr: 'radis', en: 'radish' },
@@ -556,6 +557,6 @@ export const produits: Produit[] = [
     preparation: { fr: 'Cru ou en sauce', en: 'Raw or as sauce' },
     conservation: { principale: { fr: 'Température ambiante', en: 'Room temperature' }, secondaire: { fr: 'Mise en conserve (sauce) ou Congélation', en: 'Canning (sauce) or freezing' } },
     potager: [{ fr: 'Basilic', en: 'Basil' }, { fr: "Œillet d'Inde", en: 'French marigold' }, { fr: 'Carotte', en: 'Carrot' }],
-    image: 'https://placehold.co/400x300/FEF3C7/712C00?text=Tomate',
+    image: '/images/produits/tomate.webp',
   },
 ]

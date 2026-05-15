@@ -57,5 +57,34 @@
   "footer": {
     "tagline": "Growing what matters.",
     "rights": "© 2026 Seasonal Harvest."
+  },
+  "calendarPage": {
+    "title": "Annual Calendar",
+    "subtitle": "Every seasonal vegetable, month by month.",
+    "autres": "more"
+  },
+  "recipesPage": {
+    "title": "Recipe Ideas",
+    "subtitle": "Simple recipes that put seasonal vegetables in the spotlight.",
+    "voirFiche": "View vegetable guide",
+    "comingSoonTitle": "More recipes on the way…",
+    "comingSoonText": "Every vegetable will soon have its own recipe ideas, season by season."
+  },
+  "aboutPage": {
+    "title": "About",
+    "missionText": "Seasonal Harvest is a practical guide to rediscovering vegetables at their true harvest moment. Eating seasonally is one of the simplest gestures for your health, for local producers, and for the planet.",
+    "whyTitle": "Why eat seasonally?",
+    "why1": "Produce harvested at peak ripeness, richer in vitamins and minerals.",
+    "why2": "Less transport and heated greenhouses — a reduced carbon footprint.",
+    "why3": "Direct support for local producers and short supply chains.",
+    "why4": "Authentic flavours and greater culinary diversity throughout the year.",
+    "dataTitle": "Our data",
+    "dataText": "Our database covers 38 common vegetables available in France, with their peak season calendar, nutritional values, storage methods and culinary pairings.",
+    "stat1Value": "38",
+    "stat1Label": "Vegetables",
+    "stat2Value": "12",
+    "stat2Label": "Months covered",
+    "stat3Value": "2",
+    "stat3Label": "Languages"
   }
 }

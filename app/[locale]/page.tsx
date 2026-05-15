@@ -1,9 +1,21 @@
+import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
+import Image from 'next/image'
 import { hasLocale, getDictionary } from '@/lib/i18n'
 import LangSwitcher from '@/components/LangSwitcher'
 import CalendarSection from '@/components/CalendarSection'
 import { produits } from '@/lib/data/produits'
+
+export async function generateMetadata({ params }: PageProps<'/[locale]'>): Promise<Metadata> {
+  const { locale } = await params
+  if (!hasLocale(locale)) return {}
+  const t = await getDictionary(locale)
+  return {
+    title: `Seasonal Harvest — ${t.hero.tagline}`,
+    description: t.hero.subtitle,
+  }
+}
 
 /* ─── Engagement pillar icons ────────────────────────────────────── */
 const pillarIcons = ['health_and_safety', 'public', 'local_mall']
@@ -28,7 +40,7 @@ export default async function HomePage({ params }: PageProps<'/[locale]'>) {
               <Link
                 key={k}
                 href={k === 'home' ? `/${locale}` : `/${locale}/${k}`}
-                className="font-body text-body text-text-muted hover:text-primary transition-colors duration-200"
+                className="font-body text-body text-text-muted hover:text-primary transition-colors duration-200 rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2"
               >
                 {t.nav[k]}
               </Link>
@@ -36,8 +48,8 @@ export default async function HomePage({ params }: PageProps<'/[locale]'>) {
           </div>
           <div className="flex items-center gap-sm text-primary-container">
             <LangSwitcher locale={locale} />
-            <button aria-label="Search" className="p-sm rounded-lg hover:bg-surface-container transition-colors duration-200 active:scale-95">
-              <span className="material-symbols-outlined text-[20px]">search</span>
+            <button aria-label="Search" className="p-sm rounded-lg hover:bg-surface-container transition-colors duration-200 active:scale-95 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2">
+              <span className="material-symbols-outlined text-[20px]" aria-hidden="true">search</span>
             </button>
           </div>
         </div>
@@ -47,11 +59,13 @@ export default async function HomePage({ params }: PageProps<'/[locale]'>) {
         {/* ── Hero ─────────────────────────────────────────────────── */}
         <section className="relative w-full h-[716px] flex items-center justify-center overflow-hidden">
           <div className="absolute inset-0">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src="https://placehold.co/1440x716/231a15/231a15"
-              alt="Harvest hero"
-              className="w-full h-full object-cover object-center"
+              <Image
+              src="/images/hero/home-hero.webp"
+              alt="Potager en terrasse avec vue sur la vallée"
+              fill
+              sizes="100vw"
+              priority
+              className="object-cover object-center"
             />
             <div className="absolute inset-0 bg-black/40 backdrop-blur-[2px]" />
           </div>
@@ -65,7 +79,7 @@ export default async function HomePage({ params }: PageProps<'/[locale]'>) {
             <div className="pt-lg">
               <a
                 href={`#calendar`}
-                className="inline-block bg-primary-container hover:bg-on-primary-fixed-variant text-white font-body text-body px-xl py-md rounded-lg shadow-card transition-colors duration-200 active:scale-95"
+                className="inline-block bg-primary-container hover:bg-on-primary-fixed-variant text-white font-body text-body px-xl py-md rounded-lg shadow-card transition-colors duration-200 active:scale-95 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-primary-container"
               >
                 {t.hero.cta}
               </a>
@@ -102,7 +116,7 @@ export default async function HomePage({ params }: PageProps<'/[locale]'>) {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-xl pt-lg">
               {(['nutrition', 'ecologie', 'circuit'] as const).map((key, i) => (
                 <div key={key} className="flex flex-col items-center text-center space-y-sm">
-                  <span className="material-symbols-outlined text-primary-container text-[40px] mb-xs">
+                  <span className="material-symbols-outlined text-primary-container text-[40px] mb-xs" aria-hidden="true">
                     {pillarIcons[i]}
                   </span>
                   <h3 className="font-h4 text-h4 text-text-main">{t.engagement.pillars[key].title}</h3>

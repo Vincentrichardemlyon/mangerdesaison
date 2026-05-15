@@ -32,7 +32,7 @@ export default function MonthSelector({
               <button
                 key={mIdx}
                 onClick={() => onMonthSelect(mIdx)}
-                className={`w-full text-left font-body text-body px-md py-sm rounded-lg transition-colors duration-200 ${
+                className={`w-full text-left font-body text-body px-md py-sm rounded-lg transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 ${
                   isActive
                     ? 'bg-[#87a96b] text-white shadow-ambient'
                     : 'text-text-muted hover:bg-surface-container-highest active:scale-95'

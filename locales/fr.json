@@ -57,5 +57,34 @@
   "footer": {
     "tagline": "Cultivons l'essentiel.",
     "rights": "© 2026 Seasonal Harvest."
+  },
+  "calendarPage": {
+    "title": "Calendrier Annuel",
+    "subtitle": "Tous les légumes de saison, mois après mois.",
+    "autres": "autres"
+  },
+  "recipesPage": {
+    "title": "Idées Recettes",
+    "subtitle": "Des recettes simples qui mettent les légumes du moment à l'honneur.",
+    "voirFiche": "Voir la fiche légume",
+    "comingSoonTitle": "D'autres recettes arrivent…",
+    "comingSoonText": "Chaque légume aura bientôt ses propres idées recettes."
+  },
+  "aboutPage": {
+    "title": "À Propos",
+    "missionText": "Seasonal Harvest est un guide pratique pour redécouvrir les légumes dans leur vrai moment de récolte. Manger de saison est l'un des gestes les plus simples pour sa santé, pour les producteurs locaux, et pour la planète.",
+    "whyTitle": "Pourquoi manger de saison ?",
+    "why1": "Des produits récoltés à maturité, plus riches en vitamines et minéraux.",
+    "why2": "Moins de transport et de serres chauffées — une empreinte carbone réduite.",
+    "why3": "Un soutien direct aux producteurs locaux et aux circuits courts.",
+    "why4": "Des saveurs authentiques et une plus grande diversité culinaire.",
+    "dataTitle": "Nos données",
+    "dataText": "Notre base couvre 38 légumes courants en France, avec leur calendrier de pleine saison, leurs valeurs nutritionnelles, leurs modes de conservation et leurs accords culinaires.",
+    "stat1Value": "38",
+    "stat1Label": "Légumes",
+    "stat2Value": "12",
+    "stat2Label": "Mois couverts",
+    "stat3Value": "2",
+    "stat3Label": "Langues"
   }
 }

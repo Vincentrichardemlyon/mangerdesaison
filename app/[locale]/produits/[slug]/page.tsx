@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
+import Image from 'next/image'
 import { hasLocale, getDictionary } from '@/lib/i18n'
 import LangSwitcher from '@/components/LangSwitcher'
 import NutritionCard from '@/components/NutritionCard'
@@ -35,6 +36,7 @@ export default async function ProduitPage({ params }: PageProps<'/[locale]/produ
   const p = getProduitParSlug(slug, loc)
   if (!p) notFound()
 
+  const altLocale = loc === 'fr' ? 'en' : 'fr'
   const t = await getDictionary(locale)
   const monthsShort = loc === 'fr' ? MONTHS_SHORT : MONTHS_SHORT_EN
 
@@ -47,7 +49,7 @@ export default async function ProduitPage({ params }: PageProps<'/[locale]/produ
             Seasonal Harvest
           </Link>
           <div className="flex items-center gap-sm text-primary-container">
-            <LangSwitcher locale={locale} />
+            <LangSwitcher locale={locale} altSlug={p.slug[altLocale]} />
           </div>
         </div>
       </nav>
@@ -56,11 +58,13 @@ export default async function ProduitPage({ params }: PageProps<'/[locale]/produ
         {/* ── Hero ─────────────────────────────────────────────────── */}
         <section className="relative h-64 flex items-end pb-xl overflow-hidden">
           <div className="absolute inset-0">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src="https://placehold.co/1440x256/231a15/231a15"
+              <Image
+              src={p.heroImage ?? p.image}
               alt={p.nom[loc]}
-              className="w-full h-full object-cover"
+              fill
+              sizes="100vw"
+              priority
+              className="object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-black/20" />
           </div>
@@ -76,7 +80,7 @@ export default async function ProduitPage({ params }: PageProps<'/[locale]/produ
             {/* Saisonnalité */}
             <div className="bg-surface-default rounded-xl p-lg border border-border-subtle shadow-ambient">
               <h3 className="font-h3 text-h3 text-on-surface mb-lg">{t.produit.saisonnalite}</h3>
-              <div className="grid grid-cols-6 gap-xs">
+              <div className="grid grid-cols-3 sm:grid-cols-6 gap-xs">
                 {Array.from({ length: 12 }, (_, i) => {
                   const isPeak = p.moisPrincipaux.includes(i + 1)
                   return (
@@ -121,12 +125,13 @@ export default async function ProduitPage({ params }: PageProps<'/[locale]/produ
             <div className="grid grid-cols-1 md:grid-cols-3 gap-lg">
               {p.recettes.map((r) => (
                 <article key={r.titre.fr} className="group bg-surface-default rounded-xl overflow-hidden border border-border-subtle shadow-ambient hover:shadow-ambient-md transition-shadow duration-300">
-                  <div className="aspect-[4/3] overflow-hidden">
-                    {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img
+                  <div className="relative aspect-[4/3] overflow-hidden">
+                      <Image
                       src={r.image}
                       alt={r.titre[loc]}
-                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
+                      fill
+                      sizes="(max-width: 768px) 100vw, 33vw"
+                      className="object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
                     />
                   </div>
                   <div className="p-lg">
@@ -147,7 +152,7 @@ export default async function ProduitPage({ params }: PageProps<'/[locale]/produ
             <div className="grid grid-cols-1 md:grid-cols-2 gap-lg">
               {(['principale', 'secondaire'] as const).map((type) => (
                 <div key={type} className="bg-surface-default rounded-xl p-lg border border-border-subtle shadow-ambient flex gap-lg">
-                  <span className="material-symbols-outlined text-primary-container text-[32px] shrink-0">
+                  <span className="material-symbols-outlined text-primary-container text-[32px] shrink-0" aria-hidden="true">
                     {type === 'principale' ? 'kitchen' : 'ac_unit'}
                   </span>
                   <div>
