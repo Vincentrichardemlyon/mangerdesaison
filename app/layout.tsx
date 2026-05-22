@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { headers } from 'next/headers'
 import { Alike, Nunito } from 'next/font/google'
+import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
 const alike = Alike({
@@ -36,6 +37,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
       </head>
       <body className="bg-background text-on-background font-body text-body antialiased">
         {children}
+        <Analytics />
       </body>
     </html>
   )
